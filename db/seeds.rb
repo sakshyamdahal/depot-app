@@ -43,3 +43,40 @@ Product.create!(title: 'Rails Test Prescriptions',
       </p>},
   image_url: 'rtp.jpg',
   price: 34.95)
+
+
+# . . .
+
+Product.create!(title: 'Kite Runner',
+  description: 
+    %{<p>
+        <em>The Kite Runner</em> is the first novel by Afghan-American author Khaled 
+        Hosseini.Published in 2003 by Riverhead Books, it tells the story of Amir, 
+        a young boy from the Wazir Akbar Khan district of Kabul, whose closest friend 
+        is Hassan, his father's young Hazara servant. The story is set against a backdrop 
+        of tumultuous events, from the fall of Afghanistan's monarchy through the Soviet 
+        military intervention, the exodus of refugees to Pakistan and the United States, 
+        and the rise of the Taliban regime.
+      </p>},
+  image_url: 'kite.jpg',
+  price: 12.56)
+
+
+# . . .
+
+Product.create!(title: 'The Thousand Splendid Suns',
+  description: 
+    %{<p>
+        <em>The Thousand Splendid Suns</em>  is a 2007 novel by Afghan-American author 
+        Khaled Hosseini. It is his second, following his bestselling 2003 debut, The Kite Runner. 
+        The book, which spans a period of over 50 years, from the 1960s to 2003, focuses on 
+        the tumultuous lives and relationship of Mariam and Laila, two Afghan women. 
+        Mariam, an illegitimate child, suffers from the stigma surrounding her birth and 
+        the abuse she faces throughout her marriage. Laila, born a generation later, is 
+        comparatively privileged during her youth until their lives intersect and she is also 
+        forced to accept a marriage proposal from Rasheed, Mariam's husband.
+      </p>},
+  image_url: 'thousand.jpg',
+  price: 12.56)
+
+
