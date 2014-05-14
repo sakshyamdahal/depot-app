@@ -8,4 +8,7 @@ class Product < ActiveRecord::Base
 		with: REGEX_EXPRESSION, message: 'must be a URL for git,jpg or png image'
 	}
 
+	def self.latest
+		Product.order(:updated_at).last
+	end
 end
